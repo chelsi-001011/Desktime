@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-
-  "name": "DeskTime",
-  "description": "A Time Tracker Chrome Extension",
+  "name": "WebTime",
+  "description": "A web Tracker Chrome Extension",
   "version": "1.0",
   "icons": {
     "128": "icon128.png",
@@ -14,4 +13,7 @@
     "default_icon": "icon16.png",
     "default_popup": "popup.html"
   }
+  ,
+  "permissions":["storage"]
+  
 }
